@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EYAnimationKit_Example' do
+  pod 'EYAnimationKit', :path => '../'
+
+  target 'EYAnimationKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
