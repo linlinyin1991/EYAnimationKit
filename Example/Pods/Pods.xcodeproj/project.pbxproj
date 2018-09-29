@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		255B0D9F5F0EB44C23E49A1B43292D97 /* Pods-EYAnimationKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17312C29D91EAF8E65A99751E92A7A73 /* Pods-EYAnimationKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40EF5A5ABD3AAEE307EF588D2C3DD8CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5F79AB524D9724FCD3BC8E1C4A23EE55 /* Pods-EYAnimationKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93D772992A98C63CF3507F4E8AC912D /* Pods-EYAnimationKit_Tests-dummy.m */; };
+		737F9B3A1658AAE2C77E30A3D8F4B034 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		77B345AF565FCE562905F4BC9522CA43 /* Pods-EYAnimationKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C2B19079C048FAB191F1550590E2098 /* Pods-EYAnimationKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89AF38BD9DC744B6FFC3F7DC9E565172 /* EYAnimationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942EFFF5B71189AD3A8C5EACAD03BBEA /* EYAnimationKit-dummy.m */; };
+		C6ADDBDCE88339DF13D9812849D84A04 /* Pods-EYAnimationKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7628C366546A83A2A22782C505FB885 /* Pods-EYAnimationKit_Example-dummy.m */; };
+		D74648A1D3467DE866165AC2774186E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		DB5061576BAD68B38F4F3D9C85049006 /* EYAnimationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865E29513AF4BF7A6B4E5CBD22821B0E /* EYAnimationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD44842A97F93F968E8A0697C7E0F8A8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BD69EC2753CE5ADF537703EEF10AFF56 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34FDFC1E5A6891363C29378E2F6DA35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F6DC8B85A8B2B7F76EFF8936570814;
+			remoteInfo = EYAnimationKit;
+		};
+		D624466ADCD6682E0DF119B42074BC5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B417796190A3DD2EB1415A8C5B6D1A6;
+			remoteInfo = "Pods-EYAnimationKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E764D24D10C280806C930332A0CA18 /* Pods-EYAnimationKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EYAnimationKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0281A069ADFDE1E812FB8C1D164FE769 /* Pods-EYAnimationKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EYAnimationKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0C415B0E1D6BAA262C54427AA67B4237 /* Pods-EYAnimationKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EYAnimationKit_Example-resources.sh"; sourceTree = "<group>"; };
+		1135A3CD60FB86CB4927FCADA57C4972 /* Pods-EYAnimationKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EYAnimationKit_Example.modulemap"; sourceTree = "<group>"; };
+		1324049F51FBB5914ED3F8CD07A5BFA8 /* Pods-EYAnimationKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYAnimationKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		17312C29D91EAF8E65A99751E92A7A73 /* Pods-EYAnimationKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EYAnimationKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1914CFBC7282C0E2D27D62637830F0C2 /* Pods-EYAnimationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYAnimationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1A57E279F77821879FF9EF03610381 /* EYAnimationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EYAnimationKit-prefix.pch"; sourceTree = "<group>"; };
+		4C7C302F18EAC8DF699AF3DE08C5D215 /* EYAnimationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EYAnimationKit.xcconfig; sourceTree = "<group>"; };
+		5175592FE959758363849412159390AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A51D5079F87DB79D00952CA1F079CF3 /* Pods-EYAnimationKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EYAnimationKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C6DEB2DA92F6BB8B97ECE29CB49FBAC /* EYAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EYAnimationKit.framework; path = EYAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E61E4592281BD786677AEBE155404CA /* EYAnimationKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EYAnimationKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6EECEA991A664BE008968DA9BDB6F75C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755AA7EEFB50DC563EE52FF0A132791B /* Pods-EYAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		79DEB39FC506B98FE35C668C0D2FC2C9 /* Pods_EYAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EYAnimationKit_Example.framework; path = "Pods-EYAnimationKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865E29513AF4BF7A6B4E5CBD22821B0E /* EYAnimationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EYAnimationKit-umbrella.h"; sourceTree = "<group>"; };
+		8C2B19079C048FAB191F1550590E2098 /* Pods-EYAnimationKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EYAnimationKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		90B4FE731941C5FD8D75924B8BAF5C1E /* Pods-EYAnimationKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EYAnimationKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942EFFF5B71189AD3A8C5EACAD03BBEA /* EYAnimationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EYAnimationKit-dummy.m"; sourceTree = "<group>"; };
+		9770423EEE72FD38352F34CA22FFF95D /* Pods-EYAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9AA6BA31EF81985A647BBEE3CA5CCCD1 /* Pods-EYAnimationKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EYAnimationKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A8D7B88CD177FF7A4EE4AD5A37C23C35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B7C5BBE6D304A6CAE3D09CE919711491 /* Pods_EYAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EYAnimationKit_Tests.framework; path = "Pods-EYAnimationKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD69EC2753CE5ADF537703EEF10AFF56 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = EYAnimationKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C55121805C3E605649FCB54480BD2ABD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D355C6FF85A01904E5B58424EB832A2F /* Pods-EYAnimationKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EYAnimationKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D3597FE752EBF137C809A49AE464C7C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48EA1150EDD274DB4DA8228EC649D1B /* Pods-EYAnimationKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EYAnimationKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		D93D772992A98C63CF3507F4E8AC912D /* Pods-EYAnimationKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EYAnimationKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		E31D44C735091052DC9B95D7C2DD2577 /* Pods-EYAnimationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EYAnimationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E7628C366546A83A2A22782C505FB885 /* Pods-EYAnimationKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EYAnimationKit_Example-dummy.m"; sourceTree = "<group>"; };
+		FD90AC4578643F4171BB30089C2F7DA2 /* EYAnimationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EYAnimationKit.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BC9E80F493EC43B334CDE69E608B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EF5A5ABD3AAEE307EF588D2C3DD8CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D20A79AE9C36920D0C074254BE8691E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737F9B3A1658AAE2C77E30A3D8F4B034 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5E7225C898DD586A4B2572F24A3593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74648A1D3467DE866165AC2774186E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C0ED68DA692D3ACAB405C394FBCF6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C6DEB2DA92F6BB8B97ECE29CB49FBAC /* EYAnimationKit.framework */,
+				79DEB39FC506B98FE35C668C0D2FC2C9 /* Pods_EYAnimationKit_Example.framework */,
+				B7C5BBE6D304A6CAE3D09CE919711491 /* Pods_EYAnimationKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BD86FA7A8EE5039A4A2F1A329DDE53E /* Pods-EYAnimationKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5175592FE959758363849412159390AE /* Info.plist */,
+				1135A3CD60FB86CB4927FCADA57C4972 /* Pods-EYAnimationKit_Example.modulemap */,
+				9AA6BA31EF81985A647BBEE3CA5CCCD1 /* Pods-EYAnimationKit_Example-acknowledgements.markdown */,
+				5A51D5079F87DB79D00952CA1F079CF3 /* Pods-EYAnimationKit_Example-acknowledgements.plist */,
+				E7628C366546A83A2A22782C505FB885 /* Pods-EYAnimationKit_Example-dummy.m */,
+				90B4FE731941C5FD8D75924B8BAF5C1E /* Pods-EYAnimationKit_Example-frameworks.sh */,
+				0C415B0E1D6BAA262C54427AA67B4237 /* Pods-EYAnimationKit_Example-resources.sh */,
+				8C2B19079C048FAB191F1550590E2098 /* Pods-EYAnimationKit_Example-umbrella.h */,
+				E31D44C735091052DC9B95D7C2DD2577 /* Pods-EYAnimationKit_Example.debug.xcconfig */,
+				9770423EEE72FD38352F34CA22FFF95D /* Pods-EYAnimationKit_Example.release.xcconfig */,
+			);
+			name = "Pods-EYAnimationKit_Example";
+			path = "Target Support Files/Pods-EYAnimationKit_Example";
+			sourceTree = "<group>";
+		};
+		355F762EC7862B7EF98FC3ED0984F2E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CCE928A3A70C012C490D347AC4E98A8 /* EYAnimationKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3CE4A03E3527863EB57DF5BBB1867307 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD86FA7A8EE5039A4A2F1A329DDE53E /* Pods-EYAnimationKit_Example */,
+				B8D2047420B1F7EEECF49CEBB53070BC /* Pods-EYAnimationKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				355F762EC7862B7EF98FC3ED0984F2E9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00C0ED68DA692D3ACAB405C394FBCF6B /* Products */,
+				3CE4A03E3527863EB57DF5BBB1867307 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CCE928A3A70C012C490D347AC4E98A8 /* EYAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				BD69EC2753CE5ADF537703EEF10AFF56 /* ReplaceMe.m */,
+				D422A16B8434DFD3110527FA575E7360 /* Pod */,
+				B32E38B677E4B8AC3205E4BF3EF3CB44 /* Support Files */,
+			);
+			name = EYAnimationKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B32E38B677E4B8AC3205E4BF3EF3CB44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD90AC4578643F4171BB30089C2F7DA2 /* EYAnimationKit.modulemap */,
+				4C7C302F18EAC8DF699AF3DE08C5D215 /* EYAnimationKit.xcconfig */,
+				942EFFF5B71189AD3A8C5EACAD03BBEA /* EYAnimationKit-dummy.m */,
+				3E1A57E279F77821879FF9EF03610381 /* EYAnimationKit-prefix.pch */,
+				865E29513AF4BF7A6B4E5CBD22821B0E /* EYAnimationKit-umbrella.h */,
+				D3597FE752EBF137C809A49AE464C7C6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EYAnimationKit";
+			sourceTree = "<group>";
+		};
+		B8D2047420B1F7EEECF49CEBB53070BC /* Pods-EYAnimationKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6EECEA991A664BE008968DA9BDB6F75C /* Info.plist */,
+				D355C6FF85A01904E5B58424EB832A2F /* Pods-EYAnimationKit_Tests.modulemap */,
+				00E764D24D10C280806C930332A0CA18 /* Pods-EYAnimationKit_Tests-acknowledgements.markdown */,
+				1324049F51FBB5914ED3F8CD07A5BFA8 /* Pods-EYAnimationKit_Tests-acknowledgements.plist */,
+				D93D772992A98C63CF3507F4E8AC912D /* Pods-EYAnimationKit_Tests-dummy.m */,
+				0281A069ADFDE1E812FB8C1D164FE769 /* Pods-EYAnimationKit_Tests-frameworks.sh */,
+				D48EA1150EDD274DB4DA8228EC649D1B /* Pods-EYAnimationKit_Tests-resources.sh */,
+				17312C29D91EAF8E65A99751E92A7A73 /* Pods-EYAnimationKit_Tests-umbrella.h */,
+				1914CFBC7282C0E2D27D62637830F0C2 /* Pods-EYAnimationKit_Tests.debug.xcconfig */,
+				755AA7EEFB50DC563EE52FF0A132791B /* Pods-EYAnimationKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-EYAnimationKit_Tests";
+			path = "Target Support Files/Pods-EYAnimationKit_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D422A16B8434DFD3110527FA575E7360 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E61E4592281BD786677AEBE155404CA /* EYAnimationKit.podspec */,
+				C55121805C3E605649FCB54480BD2ABD /* LICENSE */,
+				A8D7B88CD177FF7A4EE4AD5A37C23C35 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EA2A227FD6A5F04A02B930DFDC28C6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B345AF565FCE562905F4BC9522CA43 /* Pods-EYAnimationKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4FC11F32F956D3DEDD95EC2A9253406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255B0D9F5F0EB44C23E49A1B43292D97 /* Pods-EYAnimationKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1C267C3CDE3952D7B7F1167EB89B86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5061576BAD68B38F4F3D9C85049006 /* EYAnimationKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B20588C309E0316DB8B16C0A79FC3AE /* Pods-EYAnimationKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE9097B4C489C54414009169C15C4B71 /* Build configuration list for PBXNativeTarget "Pods-EYAnimationKit_Tests" */;
+			buildPhases = (
+				6C21005E3584871C4F073B32AA903E8B /* Sources */,
+				55BC9E80F493EC43B334CDE69E608B12 /* Frameworks */,
+				B4FC11F32F956D3DEDD95EC2A9253406 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65C75973F2CD35A4E1CEC3329A63E56B /* PBXTargetDependency */,
+			);
+			name = "Pods-EYAnimationKit_Tests";
+			productName = "Pods-EYAnimationKit_Tests";
+			productReference = B7C5BBE6D304A6CAE3D09CE919711491 /* Pods_EYAnimationKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B417796190A3DD2EB1415A8C5B6D1A6 /* Pods-EYAnimationKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D85DAC972C68F8F6E9BB8A0E8A7E877E /* Build configuration list for PBXNativeTarget "Pods-EYAnimationKit_Example" */;
+			buildPhases = (
+				966178D2CB1A7B91B16A02363A13E8E8 /* Sources */,
+				7D20A79AE9C36920D0C074254BE8691E /* Frameworks */,
+				9EA2A227FD6A5F04A02B930DFDC28C6C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4436F07CA8A9E7C97430CC18B3F34586 /* PBXTargetDependency */,
+			);
+			name = "Pods-EYAnimationKit_Example";
+			productName = "Pods-EYAnimationKit_Example";
+			productReference = 79DEB39FC506B98FE35C668C0D2FC2C9 /* Pods_EYAnimationKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80F6DC8B85A8B2B7F76EFF8936570814 /* EYAnimationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E94FCEFFF197E2D7A3D0DCEED5BABB7 /* Build configuration list for PBXNativeTarget "EYAnimationKit" */;
+			buildPhases = (
+				5D1291CCBF1375C402920963563B0EA6 /* Sources */,
+				FA5E7225C898DD586A4B2572F24A3593 /* Frameworks */,
+				BE1C267C3CDE3952D7B7F1167EB89B86 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EYAnimationKit;
+			productName = EYAnimationKit;
+			productReference = 5C6DEB2DA92F6BB8B97ECE29CB49FBAC /* EYAnimationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00C0ED68DA692D3ACAB405C394FBCF6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80F6DC8B85A8B2B7F76EFF8936570814 /* EYAnimationKit */,
+				6B417796190A3DD2EB1415A8C5B6D1A6 /* Pods-EYAnimationKit_Example */,
+				1B20588C309E0316DB8B16C0A79FC3AE /* Pods-EYAnimationKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1291CCBF1375C402920963563B0EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AF38BD9DC744B6FFC3F7DC9E565172 /* EYAnimationKit-dummy.m in Sources */,
+				DD44842A97F93F968E8A0697C7E0F8A8 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C21005E3584871C4F073B32AA903E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F79AB524D9724FCD3BC8E1C4A23EE55 /* Pods-EYAnimationKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		966178D2CB1A7B91B16A02363A13E8E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6ADDBDCE88339DF13D9812849D84A04 /* Pods-EYAnimationKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4436F07CA8A9E7C97430CC18B3F34586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EYAnimationKit;
+			target = 80F6DC8B85A8B2B7F76EFF8936570814 /* EYAnimationKit */;
+			targetProxy = 34FDFC1E5A6891363C29378E2F6DA35C /* PBXContainerItemProxy */;
+		};
+		65C75973F2CD35A4E1CEC3329A63E56B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EYAnimationKit_Example";
+			target = 6B417796190A3DD2EB1415A8C5B6D1A6 /* Pods-EYAnimationKit_Example */;
+			targetProxy = D624466ADCD6682E0DF119B42074BC5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		016EBC5772830A7436ED5B5186318B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1914CFBC7282C0E2D27D62637830F0C2 /* Pods-EYAnimationKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYAnimationKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D8FAC89EC1070B3F0F5815166489EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31D44C735091052DC9B95D7C2DD2577 /* Pods-EYAnimationKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYAnimationKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		833738A9DFB041783542C32F6186C977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7C302F18EAC8DF699AF3DE08C5D215 /* EYAnimationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EYAnimationKit/EYAnimationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EYAnimationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EYAnimationKit/EYAnimationKit.modulemap";
+				PRODUCT_MODULE_NAME = EYAnimationKit;
+				PRODUCT_NAME = EYAnimationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC5C3B5BB61D50FE6320D135E1106844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755AA7EEFB50DC563EE52FF0A132791B /* Pods-EYAnimationKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYAnimationKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CEB0999BB4BE3699E588FE233EC08D76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9770423EEE72FD38352F34CA22FFF95D /* Pods-EYAnimationKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EYAnimationKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F44EECAE7C339A64EE98FF6778E9931C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7C302F18EAC8DF699AF3DE08C5D215 /* EYAnimationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EYAnimationKit/EYAnimationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EYAnimationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EYAnimationKit/EYAnimationKit.modulemap";
+				PRODUCT_MODULE_NAME = EYAnimationKit;
+				PRODUCT_NAME = EYAnimationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E94FCEFFF197E2D7A3D0DCEED5BABB7 /* Build configuration list for PBXNativeTarget "EYAnimationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F44EECAE7C339A64EE98FF6778E9931C /* Debug */,
+				833738A9DFB041783542C32F6186C977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D85DAC972C68F8F6E9BB8A0E8A7E877E /* Build configuration list for PBXNativeTarget "Pods-EYAnimationKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D8FAC89EC1070B3F0F5815166489EBD /* Debug */,
+				CEB0999BB4BE3699E588FE233EC08D76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE9097B4C489C54414009169C15C4B71 /* Build configuration list for PBXNativeTarget "Pods-EYAnimationKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016EBC5772830A7436ED5B5186318B75 /* Debug */,
+				AC5C3B5BB61D50FE6320D135E1106844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

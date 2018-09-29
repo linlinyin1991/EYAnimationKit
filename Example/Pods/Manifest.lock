@@ -1,0 +1,16 @@
+PODS:
+  - EYAnimationKit (0.1.0)
+
+DEPENDENCIES:
+  - EYAnimationKit (from `../`)
+
+EXTERNAL SOURCES:
+  EYAnimationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EYAnimationKit: 4b8fd133a61c2c05f71106afe81e28950517fef9
+
+PODFILE CHECKSUM: 30e4c76b4c3c5f53ccdbb3d6013599973a2b81b5
+
+COCOAPODS: 1.5.3

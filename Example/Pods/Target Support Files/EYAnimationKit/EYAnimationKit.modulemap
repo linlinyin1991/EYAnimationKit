@@ -1,0 +1,6 @@
+framework module EYAnimationKit {
+  umbrella header "EYAnimationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
