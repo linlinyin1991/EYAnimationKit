@@ -23,7 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		76E0801389E02F9713BF02A2 /* Pods_EYAnimationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */; };
 		7878A7ED4DD5A51A44BABC79 /* Pods_EYAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356247E9F4AED9154409FB18 /* Pods_EYAnimationKit_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		BDFB1E1D215F8DBF0036F947 /* EYMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB1E1C215F8DBF0036F947 /* EYMaskViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,7 @@
 		0D18AF1590485DBA928B82FF /* Pods-EYAnimationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		255854C721199BE27A290AC1 /* Pods-EYAnimationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		356247E9F4AED9154409FB18 /* Pods_EYAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		416848BEB993DEDF50EC84B9 /* EYAnimationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EYAnimationKit.podspec; path = ../EYAnimationKit.podspec; sourceTree = "<group>"; };
+		416848BEB993DEDF50EC84B9 /* EYAnimationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EYAnimationKit.podspec; path = ../EYAnimationKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* EYAnimationKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EYAnimationKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A85C5692FCBF46991F9C3765 /* Pods-EYAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8854FCC8C73AA03E581C0B5 /* Pods-EYAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3CCA9628555EB93ECAF7A9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C8B4A90970348E7E67AF6963 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BDFB1E1B215F8DBF0036F947 /* EYMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EYMaskViewController.h; sourceTree = "<group>"; };
+		BDFB1E1C215F8DBF0036F947 /* EYMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EYMaskViewController.m; sourceTree = "<group>"; };
+		C3CCA9628555EB93ECAF7A9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C8B4A90970348E7E67AF6963 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +135,9 @@
 			children = (
 				6003F59C195388D20070C39A /* EYAppDelegate.h */,
 				6003F59D195388D20070C39A /* EYAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* EYViewController.h */,
 				6003F5A6195388D20070C39A /* EYViewController.m */,
+				BDFB1E1A215F8D8E0036F947 /* Animation */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -183,6 +184,15 @@
 				C8B4A90970348E7E67AF6963 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BDFB1E1A215F8D8E0036F947 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB1E1B215F8DBF0036F947 /* EYMaskViewController.h */,
+				BDFB1E1C215F8DBF0036F947 /* EYMaskViewController.m */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		E9BEB1C4F85F921A67C4307E /* Pods */ = {
@@ -276,7 +286,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -357,6 +366,7 @@
 			files = (
 				6003F59E195388D20070C39A /* EYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* EYViewController.m in Sources */,
+				BDFB1E1D215F8DBF0036F947 /* EYMaskViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
