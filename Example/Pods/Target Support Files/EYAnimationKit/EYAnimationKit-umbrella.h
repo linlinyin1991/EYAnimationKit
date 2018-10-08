@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+EYMask.h"
 
 FOUNDATION_EXPORT double EYAnimationKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char EYAnimationKitVersionString[];
