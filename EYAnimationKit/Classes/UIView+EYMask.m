@@ -35,8 +35,27 @@
 }
 
 /// 设置五角形
-- (void)setFivePoint1Mask {
+- (void)setFivePointMask {
+    CGFloat width = self.bounds.size.width;
+    CGFloat height = self.bounds.size.height;
     
+    CAShapeLayer *fivePointMask = [CAShapeLayer layer];
+    // 先随便设几个点
+    // 第一个点
+    CGPoint point1 = CGPointMake(width/2.0, 0);
+    CGPoint point2 = CGPointMake(width/5.0*4.0, height/5.0*4.0);
+    CGPoint point3 = CGPointMake(width/5.0*4.0, height/5.0);
+    CGPoint point4 = CGPointMake(width/5.0, height/5.0);
+    CGPoint point5 = CGPointMake(width/5.0, height/5.0*4.0);
+    UIBezierPath *linePath = [UIBezierPath bezierPath];
+    [linePath moveToPoint:point1];
+    [linePath addLineToPoint:point2];
+    [linePath addLineToPoint:point3];
+    [linePath addLineToPoint:point4];
+    [linePath addLineToPoint:point5];
+    [linePath addLineToPoint:point1];
+    fivePointMask.path = linePath.CGPath;
+    self.layer.mask = fivePointMask;
 }
 
 - (void)setFivePoint2Mask {

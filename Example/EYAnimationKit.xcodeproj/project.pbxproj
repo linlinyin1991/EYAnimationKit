@@ -23,6 +23,14 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		76E0801389E02F9713BF02A2 /* Pods_EYAnimationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */; };
 		7878A7ED4DD5A51A44BABC79 /* Pods_EYAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356247E9F4AED9154409FB18 /* Pods_EYAnimationKit_Example.framework */; };
+		BDC3E51A21F2CF74008E695C /* IMG_0042.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51221F2CF72008E695C /* IMG_0042.JPG */; };
+		BDC3E51B21F2CF74008E695C /* IMG_0044.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51321F2CF73008E695C /* IMG_0044.JPG */; };
+		BDC3E51C21F2CF74008E695C /* IMG_0259.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51421F2CF73008E695C /* IMG_0259.JPG */; };
+		BDC3E51D21F2CF74008E695C /* IMG_0263.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51521F2CF73008E695C /* IMG_0263.JPG */; };
+		BDC3E51E21F2CF74008E695C /* IMG_0047.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51621F2CF73008E695C /* IMG_0047.JPG */; };
+		BDC3E51F21F2CF74008E695C /* IMG_0727.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51721F2CF73008E695C /* IMG_0727.JPG */; };
+		BDC3E52021F2CF74008E695C /* IMG_0045.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51821F2CF73008E695C /* IMG_0045.JPG */; };
+		BDC3E52121F2CF74008E695C /* IMG_0043.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51921F2CF74008E695C /* IMG_0043.JPG */; };
 		BDFB1E1D215F8DBF0036F947 /* EYMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFB1E1C215F8DBF0036F947 /* EYMaskViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +72,14 @@
 		A85C5692FCBF46991F9C3765 /* Pods-EYAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8854FCC8C73AA03E581C0B5 /* Pods-EYAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC3E51221F2CF72008E695C /* IMG_0042.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0042.JPG; sourceTree = "<group>"; };
+		BDC3E51321F2CF73008E695C /* IMG_0044.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0044.JPG; sourceTree = "<group>"; };
+		BDC3E51421F2CF73008E695C /* IMG_0259.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0259.JPG; sourceTree = "<group>"; };
+		BDC3E51521F2CF73008E695C /* IMG_0263.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0263.JPG; sourceTree = "<group>"; };
+		BDC3E51621F2CF73008E695C /* IMG_0047.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0047.JPG; sourceTree = "<group>"; };
+		BDC3E51721F2CF73008E695C /* IMG_0727.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0727.JPG; sourceTree = "<group>"; };
+		BDC3E51821F2CF73008E695C /* IMG_0045.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0045.JPG; sourceTree = "<group>"; };
+		BDC3E51921F2CF74008E695C /* IMG_0043.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0043.JPG; sourceTree = "<group>"; };
 		BDFB1E1B215F8DBF0036F947 /* EYMaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EYMaskViewController.h; sourceTree = "<group>"; };
 		BDFB1E1C215F8DBF0036F947 /* EYMaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EYMaskViewController.m; sourceTree = "<group>"; };
 		C3CCA9628555EB93ECAF7A9F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -137,6 +153,7 @@
 				6003F59D195388D20070C39A /* EYAppDelegate.m */,
 				6003F5A5195388D20070C39A /* EYViewController.h */,
 				6003F5A6195388D20070C39A /* EYViewController.m */,
+				BDC3E51121F2CEFE008E695C /* Image */,
 				BDFB1E1A215F8D8E0036F947 /* Animation */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -184,6 +201,21 @@
 				C8B4A90970348E7E67AF6963 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		BDC3E51121F2CEFE008E695C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3E51221F2CF72008E695C /* IMG_0042.JPG */,
+				BDC3E51921F2CF74008E695C /* IMG_0043.JPG */,
+				BDC3E51321F2CF73008E695C /* IMG_0044.JPG */,
+				BDC3E51821F2CF73008E695C /* IMG_0045.JPG */,
+				BDC3E51621F2CF73008E695C /* IMG_0047.JPG */,
+				BDC3E51421F2CF73008E695C /* IMG_0259.JPG */,
+				BDC3E51521F2CF73008E695C /* IMG_0263.JPG */,
+				BDC3E51721F2CF73008E695C /* IMG_0727.JPG */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		BDFB1E1A215F8D8E0036F947 /* Animation */ = {
@@ -286,9 +318,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC3E51F21F2CF74008E695C /* IMG_0727.JPG in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				BDC3E51D21F2CF74008E695C /* IMG_0263.JPG in Resources */,
+				BDC3E51E21F2CF74008E695C /* IMG_0047.JPG in Resources */,
+				BDC3E51A21F2CF74008E695C /* IMG_0042.JPG in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				BDC3E51C21F2CF74008E695C /* IMG_0259.JPG in Resources */,
+				BDC3E51B21F2CF74008E695C /* IMG_0044.JPG in Resources */,
+				BDC3E52021F2CF74008E695C /* IMG_0045.JPG in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				BDC3E52121F2CF74008E695C /* IMG_0043.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

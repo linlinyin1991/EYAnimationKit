@@ -18,7 +18,8 @@
 - (void)setCircleMask;
 
 /// 设置五角形
-- (void)setFivePoint1Mask;
+- (void)setFivePointMask;
+
 - (void)setFivePoint2Mask;
 
 

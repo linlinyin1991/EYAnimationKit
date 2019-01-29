@@ -8,6 +8,7 @@
 
 #import "EYMaskViewController.h"
 #import <EYAnimationKit/UIView+EYMask.h>
+
 @interface EYMaskViewController ()
 
 @end
@@ -19,12 +20,24 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"EYMaskDemo";
     
-    CGFloat beginY = 60.f;
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:scrollView];
     
-    UIView *testView = [[UIView alloc] initWithFrame:CGRectMake(0, beginY, 200, 60)];
-    testView.backgroundColor = [UIColor greenColor];
-    [testView setCircleMask];
-    [self.view addSubview:testView];
+    CGFloat beginY = 80.f;
+    // 圆形
+    UIImageView *imageView1 = [[UIImageView alloc] initWithFrame:CGRectMake(0, beginY, 200, 200)];
+    imageView1.image = [UIImage imageNamed:@"IMG_0043.JPG"];
+    [imageView1 setCircleMask];
+    [scrollView addSubview:imageView1];
+    beginY += 200;
+    // 五角
+    
+    UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:CGRectMake(0, beginY, 200, 200)];
+    imageView2.image = [UIImage imageNamed:@"IMG_0043.JPG"];
+    [imageView2 setFivePointMask];
+    [scrollView addSubview:imageView2];
+    beginY += 200;
+    // 心形
     
 }
 
