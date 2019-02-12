@@ -31,10 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'EYAnimationKit/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'EYAnimationKit' => ['EYAnimationKit/Assets/*.png']
-  # }
+  s.prefix_header_contents = '#import "EYAHeader.h"'
+   s.resource_bundles = {
+     'EYAnimationKit' => ['EYAnimationKit/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

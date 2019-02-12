@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "EYAHeader.h"
+#import "EYAMacro.h"
 #import "UIView+EYMask.h"
 
 FOUNDATION_EXPORT double EYAnimationKitVersionNumber;

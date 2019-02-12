@@ -36,10 +36,18 @@
 
 /// 设置五角形
 - (void)setFivePointMask {
+    CALayer *maskLayer = [CALayer layer];
+    UIImage *maskImage = [EYAMacro BPAImageNamed:@"star"];
+    maskLayer.contents = (__bridge id _Nullable)(maskImage.CGImage);
+    maskLayer.frame = self.bounds;
+    self.layer.mask = maskLayer;
+}
+
+- (void)setFivePoint2Mask {
     CGFloat width = self.bounds.size.width;
     CGFloat height = self.bounds.size.height;
-    
     CAShapeLayer *fivePointMask = [CAShapeLayer layer];
+    
     // 先随便设几个点
     // 第一个点
     CGPoint point1 = CGPointMake(width/2.0, 0);
@@ -56,10 +64,6 @@
     [linePath addLineToPoint:point1];
     fivePointMask.path = linePath.CGPath;
     self.layer.mask = fivePointMask;
-}
-
-- (void)setFivePoint2Mask {
-    
 }
 
 @end

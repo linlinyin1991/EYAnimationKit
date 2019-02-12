@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "EYAnimationKit/Classes/**/*"
+  "source_files": "EYAnimationKit/Classes/**/*",
+  "prefix_header_contents": "#import \"EYAHeader.h\"",
+  "resource_bundles": {
+    "EYAnimationKit": [
+      "EYAnimationKit/Assets/*.png"
+    ]
+  }
 }

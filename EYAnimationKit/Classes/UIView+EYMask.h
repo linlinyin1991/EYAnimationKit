@@ -20,7 +20,7 @@
 /// 设置五角形
 - (void)setFivePointMask;
 
-- (void)setFivePoint2Mask;
+//- (void)setFivePoint2Mask;
 
 
 @end

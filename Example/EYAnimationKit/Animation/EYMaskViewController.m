@@ -33,7 +33,7 @@
     // 五角
     
     UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:CGRectMake(0, beginY, 200, 200)];
-    imageView2.image = [UIImage imageNamed:@"IMG_0043.JPG"];
+    imageView2.image = [UIImage imageNamed:@"IMG_0259.JPG"];
     [imageView2 setFivePointMask];
     [scrollView addSubview:imageView2];
     beginY += 200;
