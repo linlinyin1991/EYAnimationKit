@@ -23,6 +23,9 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		76E0801389E02F9713BF02A2 /* Pods_EYAnimationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */; };
 		7878A7ED4DD5A51A44BABC79 /* Pods_EYAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 356247E9F4AED9154409FB18 /* Pods_EYAnimationKit_Example.framework */; };
+		BD6EF4FF221EA5790017D4C3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6EF4FE221EA5790017D4C3 /* TestViewController.m */; };
+		BD7759FC22CA2864002C7641 /* CirclePercentController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7759FB22CA2864002C7641 /* CirclePercentController.m */; };
+		BDB62F9222CC5962004ED34A /* EYCirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDB62F9122CC5962004ED34A /* EYCirclePercentView.m */; };
 		BDC3E51A21F2CF74008E695C /* IMG_0042.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51221F2CF72008E695C /* IMG_0042.JPG */; };
 		BDC3E51B21F2CF74008E695C /* IMG_0044.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51321F2CF73008E695C /* IMG_0044.JPG */; };
 		BDC3E51C21F2CF74008E695C /* IMG_0259.JPG in Resources */ = {isa = PBXBuildFile; fileRef = BDC3E51421F2CF73008E695C /* IMG_0259.JPG */; };
@@ -72,6 +75,12 @@
 		A85C5692FCBF46991F9C3765 /* Pods-EYAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Example/Pods-EYAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A8854FCC8C73AA03E581C0B5 /* Pods-EYAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EYAnimationKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EYAnimationKit_Tests/Pods-EYAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B71AFBC976178E0143A2C95A /* Pods_EYAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EYAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6EF4FD221EA5790017D4C3 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		BD6EF4FE221EA5790017D4C3 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		BD7759FA22CA2864002C7641 /* CirclePercentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CirclePercentController.h; sourceTree = "<group>"; };
+		BD7759FB22CA2864002C7641 /* CirclePercentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CirclePercentController.m; sourceTree = "<group>"; };
+		BDB62F9022CC5962004ED34A /* EYCirclePercentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EYCirclePercentView.h; sourceTree = "<group>"; };
+		BDB62F9122CC5962004ED34A /* EYCirclePercentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EYCirclePercentView.m; sourceTree = "<group>"; };
 		BDC3E51221F2CF72008E695C /* IMG_0042.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0042.JPG; sourceTree = "<group>"; };
 		BDC3E51321F2CF73008E695C /* IMG_0044.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0044.JPG; sourceTree = "<group>"; };
 		BDC3E51421F2CF73008E695C /* IMG_0259.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0259.JPG; sourceTree = "<group>"; };
@@ -153,6 +162,12 @@
 				6003F59D195388D20070C39A /* EYAppDelegate.m */,
 				6003F5A5195388D20070C39A /* EYViewController.h */,
 				6003F5A6195388D20070C39A /* EYViewController.m */,
+				BD6EF4FD221EA5790017D4C3 /* TestViewController.h */,
+				BD6EF4FE221EA5790017D4C3 /* TestViewController.m */,
+				BD7759FA22CA2864002C7641 /* CirclePercentController.h */,
+				BD7759FB22CA2864002C7641 /* CirclePercentController.m */,
+				BDB62F9022CC5962004ED34A /* EYCirclePercentView.h */,
+				BDB62F9122CC5962004ED34A /* EYCirclePercentView.m */,
 				BDC3E51121F2CEFE008E695C /* Image */,
 				BDFB1E1A215F8D8E0036F947 /* Animation */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -407,7 +422,10 @@
 				6003F59E195388D20070C39A /* EYAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* EYViewController.m in Sources */,
 				BDFB1E1D215F8DBF0036F947 /* EYMaskViewController.m in Sources */,
+				BD7759FC22CA2864002C7641 /* CirclePercentController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BD6EF4FF221EA5790017D4C3 /* TestViewController.m in Sources */,
+				BDB62F9222CC5962004ED34A /* EYCirclePercentView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,34 +1,46 @@
 //
-//  EYViewController.m
-//  EYAnimationKit
+//  TestViewController.m
+//  EYAnimationKit_Example
 //
-//  Created by yinll on 09/29/2018.
-//  Copyright (c) 2018 yinll. All rights reserved.
+//  Created by YinLinLin on 2019/2/21.
+//  Copyright © 2019 yinll. All rights reserved.
 //
 
-#import "EYViewController.h"
-#import "EYMaskViewController.h"
 #import "TestViewController.h"
-#import "CirclePercentController.h"
 
-@interface EYViewController ()<UITableViewDelegate, UITableViewDataSource>
+@interface TestViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSMutableArray *dataArray;
+
 @end
 
-@implementation EYViewController
+@implementation TestViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"loadMore" style:UIBarButtonItemStyleDone target:self  action:@selector(loadMore)];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.title = @"EYAnimationDemo";
-    [self.dataArray addObject:@"MaskDemo"];
-    [self.dataArray addObject:@"test"];
-    [self.dataArray addObject:@"CirclePresent"];
+    self.title = @"Test";
+    [self.dataArray addObject:@"1"];
+    [self.dataArray addObject:@"2"];
     [self.view addSubview:self.tableView];
 }
+
+- (void)loadMore {
+    for (NSInteger i = 0; i < 1000000; i ++) {
+        [self.dataArray addObject:[NSString stringWithFormat:@"%ld",i]];
+    }
+    [self.tableView reloadData];
+//    [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:self.dataArray.count - 1 inSection:0] atScrollPosition:UITableViewScrollPositionNone animated:YES];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        //刷新完成
+        [self.tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:self.dataArray.count - 1 inSection:0] atScrollPosition:UITableViewScrollPositionNone animated:YES];
+    });
+    
+}
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataArray.count;
@@ -46,30 +58,6 @@
     }
     cell.textLabel.text = [self.dataArray objectAtIndex:indexPath.row];
     return cell;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    switch (indexPath.row) {
-        case 0: {
-            EYMaskViewController *childVC = [[EYMaskViewController alloc] init];
-            childVC.title = [self.dataArray objectAtIndex:indexPath.row];
-            [self.navigationController pushViewController:childVC animated:YES];
-        }
-            break;
-        case 1: {
-            TestViewController *testVC = [TestViewController new];
-            [self.navigationController pushViewController:testVC animated:YES];
-            
-        }
-            break;
-        case 2: {
-            CirclePercentController *vc = [[CirclePercentController alloc] init];
-            [self.navigationController pushViewController:vc animated:YES];
-        }
-            break;
-        default:
-            break;
-    }
 }
 
 - (UITableView *)tableView {
@@ -91,12 +79,6 @@
         _dataArray = [NSMutableArray arrayWithCapacity:0];
     }
     return _dataArray;
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end
